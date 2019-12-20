@@ -1,0 +1,6 @@
+framework module CEBComponentsLibrary {
+  umbrella header "CEBComponentsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

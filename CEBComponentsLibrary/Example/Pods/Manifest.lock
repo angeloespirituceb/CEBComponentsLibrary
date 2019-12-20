@@ -1,0 +1,16 @@
+PODS:
+  - CEBComponentsLibrary (0.1.0)
+
+DEPENDENCIES:
+  - CEBComponentsLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  CEBComponentsLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CEBComponentsLibrary: b13f73ab8b4fdf3fa9455aaa3d2ef3bb2d315fdd
+
+PODFILE CHECKSUM: e4849af0022b115a241cd53e2457a28f4457550d
+
+COCOAPODS: 1.8.4
