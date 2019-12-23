@@ -12,13 +12,13 @@ import AccordionSwift
 import SnapKit
 
 public struct CountryCellModel {
-    let name: String
-    let countryCode: String
+    public let name: String
+    public let countryCode: String
 }
 
 public struct TerminalCellModel {
-    let name: String
-    let stationCode: String
+    public let name: String
+    public let stationCode: String
 }
 
 class ParentTableViewCell: UITableViewCell {
