@@ -38,7 +38,7 @@ public class CBHeader: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
- public func initComponent(){
+ private func initComponent(){
         
         let titleLabel = UILabel()
         titleLabel.textColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1)
@@ -157,7 +157,7 @@ public class CBHeader: UIView {
 }
 
 extension CBHeader {
-    func makeRoundedBottomEdge(ofHeight height: CGFloat) {
+    private func makeRoundedBottomEdge(ofHeight height: CGFloat) {
         
         let offsetHeight: CGFloat = 40
         
