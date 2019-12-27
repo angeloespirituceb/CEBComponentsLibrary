@@ -188,30 +188,4 @@ extension CBHeader {
     }
 }
 
-
-extension CBHeader{
-    func setImageAsArrowLeft() {
-        //needed to separate into segments because bezierpath automatically closes shape
-        let segment1 = UIBezierPath()
-        segment1.move(to: CGPoint(x: frame.width - 6.63, y: 2.62))
-        segment1.addLine(to: CGPoint(x: 6.63, y: frame.height / 2))
-        
-        
-        let segment2 = UIBezierPath()
-        segment2.move(to: CGPoint(x: 6.63, y: frame.height / 2))
-        segment2.addLine(to: CGPoint(x: frame.width - 6.63, y: frame.height - 2.62))
-        
-        
-        segment1.append(segment2)
-        
-        let arrowLayer = CAShapeLayer()
-        arrowLayer.path = segment1.cgPath
-        arrowLayer.strokeColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1).cgColor
-        arrowLayer.fillColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1).cgColor
-        arrowLayer.lineWidth = 2.0
-        arrowLayer.lineJoin = CAShapeLayerLineJoin.round
-        arrowLayer.lineCap = CAShapeLayerLineCap.round
-                   
-        layer.addSublayer(arrowLayer)
-    }
-}
+ 
