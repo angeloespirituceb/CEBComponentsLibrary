@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftyJSON
+import SnapKit
 
 class CBHeader: UIView {
     let headerType: String!
