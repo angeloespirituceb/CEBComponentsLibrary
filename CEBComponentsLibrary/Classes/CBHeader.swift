@@ -11,7 +11,7 @@ import SnapKit
  
 
 
-open class CBHeader: UIView {
+public class CBHeader: UIView {
     let headerType: String!
     let title: String!
     var leftBarBNuttonItemAction: String?
@@ -19,7 +19,7 @@ open class CBHeader: UIView {
     let className: String!
     
     var subTitle: String?
-    required init(data: JSON){
+    required public init(data: JSON){
         
         self.headerType = data["headerType"].stringValue
         self.title = data["title"].stringValue
@@ -34,11 +34,11 @@ open class CBHeader: UIView {
         initComponent()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func initComponent(){
+ open func initComponent(){
         
         let titleLabel = UILabel()
         titleLabel.textColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1)
