@@ -5,13 +5,14 @@
 ////  Created by Nicole Jillian Day on 27/12/2019.
 ////
 //
-//import Foundation
-//import SwiftyJSON
-//import SnapKit
+import Foundation
+import SwiftyJSON
+import SnapKit
 // 
 //
 //
-//class CBHeader: UIView {
+class CBHeader: UIView {
+}
 //    let headerType: String!
 //    let title: String!
 //    var leftBarBNuttonItemAction: String?
