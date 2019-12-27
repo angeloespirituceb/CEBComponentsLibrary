@@ -38,7 +38,7 @@ public class CBHeader: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
- open func initComponent(){
+ public func initComponent(){
         
         let titleLabel = UILabel()
         titleLabel.textColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1)
