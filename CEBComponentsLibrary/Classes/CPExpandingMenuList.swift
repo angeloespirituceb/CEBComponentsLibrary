@@ -111,6 +111,7 @@ open class CPExpandingMenuList: UIView {
         
         initElements(data: jsonData)
         self.setUpContainers()
+
         self.configDataSource();
     }
     
