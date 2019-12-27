@@ -19,7 +19,7 @@ public class CBHeader: UIView {
     let className: String!
     
     var subTitle: String?
-    required public init(data: JSON){
+     public init(data: JSON){
         
         self.headerType = data["headerType"].stringValue
         self.title = data["title"].stringValue
@@ -34,7 +34,7 @@ public class CBHeader: UIView {
         initComponent()
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+     public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
