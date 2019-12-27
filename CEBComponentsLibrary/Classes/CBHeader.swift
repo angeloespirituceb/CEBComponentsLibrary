@@ -11,7 +11,7 @@ import SnapKit
  
 
 
-class CBHeader: UIView {
+open class CBHeader: UIView {
     let headerType: String!
     let title: String!
     var leftBarBNuttonItemAction: String?
