@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIKit
 extension UIView {
     
     //get class name of controller of from view
@@ -80,6 +80,7 @@ extension UIView {
           arrowLayer.strokeColor = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha: 1).cgColor
           arrowLayer.fillColor = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha: 1).cgColor
           arrowLayer.lineWidth = 2.0
+        
           arrowLayer.lineJoin = CAShapeLayerLineJoin.round
           arrowLayer.lineCap = CAShapeLayerLineCap.round
                      
