@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     s.swift_version = '5.0'
     
-    s.source_files = 'CEBComponentsLibrary/Classes/**/*'
+    s.source_files = 'Classes/**/*'
     
     # s.resource_bundles = {
     #   'CEBComponentsLibrary' => ['CEBComponentsLibrary/Assets/*.png']
