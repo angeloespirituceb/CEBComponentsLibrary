@@ -122,6 +122,8 @@
 		8F57BC5B23AC6DBB00DD3AB3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E5934BFE23B5C55900EE43F2 /* ViewHelper.swift */,
+				E5934BFC23B5C47900EE43F2 /* ViewSize.swift */,
 				8F57BC5C23AC6DD200DD3AB3 /* CPExpandingMenuList.swift */,
 				E5934BF823B5AD7E00EE43F2 /* CBHeader.swift */,
 			);
@@ -139,7 +141,6 @@
 		C3C8EB80263C76E7FABDC347B3F28964 /* CEBComponentsLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E5934BFB23B5C45200EE43F2 /* Utilities */,
 				8F57BC5B23AC6DBB00DD3AB3 /* Classes */,
 				76E2B22452ECD249B9FA0E00FA1F4833 /* Pod */,
 				1F3ED651304550AC67677169CE3587DC /* Support Files */,
@@ -182,15 +183,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E5934BFB23B5C45200EE43F2 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				E5934BFC23B5C47900EE43F2 /* ViewSize.swift */,
-				E5934BFE23B5C55900EE43F2 /* ViewHelper.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		ECB5E509CBF4D2B755881212B31F97D4 /* Development Pods */ = {
