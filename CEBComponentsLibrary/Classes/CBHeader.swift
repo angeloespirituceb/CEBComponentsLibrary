@@ -11,7 +11,7 @@ import SnapKit
  
 
 
-public class CBHeader: UIView {
+open class CBHeader: UIView {
     let headerType: String!
     let title: String!
     var leftBarBNuttonItemAction: String?
@@ -19,7 +19,7 @@ public class CBHeader: UIView {
     let className: String!
     
     var subTitle: String?
-     public init(data: JSON){
+    required public init(data: JSON){
         
         self.headerType = data["headerType"].stringValue
         self.title = data["title"].stringValue
@@ -34,7 +34,7 @@ public class CBHeader: UIView {
         initComponent()
     }
     
-     public init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
