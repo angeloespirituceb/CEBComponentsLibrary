@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.swift_version = '4.0'
     
 #    s.source_files = 'CEBComponentsLibrary/Classes/**/*'
-    s.source_files = 'Classes/*.swift'
+    s.source_files = 'CEBComponentsLibrary/Classes/*.swift'
        
     # s.resource_bundles = {
     #   'CEBComponentsLibrary' => ['CEBComponentsLibrary/Assets/*.png']
