@@ -168,8 +168,9 @@ extension UIButton {
         dissmisXLayer.strokeColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1).cgColor
         dissmisXLayer.fillColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1).cgColor
         dissmisXLayer.lineWidth = 2.0
-        dissmisXLayer.lineJoin = CAShapeLayerLineJoin.round
-        dissmisXLayer.lineCap = CAShapeLayerLineCap.round
+//        dissmisXLayer.lineJoin = CAShapeLayerLineJoin.round
+        dissmisXLayer.lineJoin = CAShapeLayerLineJoin
+//        dissmisXLayer.lineCap = CAShapeLayerLineCap.round
                    
         layer.addSublayer(dissmisXLayer)
     }
