@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CEBComponentsLibrary'
-    s.version          = '2.0.5'
+    s.version          = '2.0.6'
     s.summary          = 'A Library for reusable UI components for iOS Ceb Pac Platforms.'
     
     # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     s.swift_version = '5.0'
     
-    s.source_files = '/CEBComponentsLibrary/Classes/**/*'
+    s.source_files = 'CEBComponentsLibrary/Classes/**/*'
     
     # s.resource_bundles = {
     #   'CEBComponentsLibrary' => ['CEBComponentsLibrary/Assets/*.png']
