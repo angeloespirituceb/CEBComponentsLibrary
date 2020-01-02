@@ -11,10 +11,6 @@ class ViewSizeUtil {
     
     //should make adjustments to headerHeight when UIDevice has top notch
     static func getHeaderHeight() -> CGFloat {
-        if UIDevice.current.hasNotch {
-            return 104.98
-        } else {
-            return 80.98
-        }
+        return 104.98
     }
 }
