@@ -169,6 +169,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				C3C8EB80263C76E7FABDC347B3F28964 /* CEBComponentsLibrary */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				ECB5E509CBF4D2B755881212B31F97D4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
@@ -188,7 +189,6 @@
 		ECB5E509CBF4D2B755881212B31F97D4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3C8EB80263C76E7FABDC347B3F28964 /* CEBComponentsLibrary */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
