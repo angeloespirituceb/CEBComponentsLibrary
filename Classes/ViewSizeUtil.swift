@@ -1,16 +1,21 @@
 //
 //  ViewSizeUtil.swift
-//  CEBComponentsLibrary
+//  Cebu Pacific
 //
-//  Created by Nicole Jillian Day on 02/01/2020.
+//  Created by Gino Alo on 16/12/2019.
+//  Copyright © 2019 Randell Joseph Ramirez. All rights reserved.
 //
 
-import Foundation
 import UIKit
+
 class ViewSizeUtil {
     
     //should make adjustments to headerHeight when UIDevice has top notch
     static func getHeaderHeight() -> CGFloat {
-        return 104.98
+        if UIDevice.current.hasNotch {
+            return 104.98
+        } else {
+            return 80.98
+        }
     }
 }
