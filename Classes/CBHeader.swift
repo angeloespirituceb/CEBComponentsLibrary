@@ -30,7 +30,7 @@ open class CBHeader: UIView {
           super.init(frame: frame)
           
 //          makeRoundedBottomEdge(ofHeight: 24)
-          initComponent()
+        //   initComponent()
     }
  
     

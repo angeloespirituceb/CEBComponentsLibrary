@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIkit
 class ViewSizeUtil {
     
     //should make adjustments to headerHeight when UIDevice has top notch
