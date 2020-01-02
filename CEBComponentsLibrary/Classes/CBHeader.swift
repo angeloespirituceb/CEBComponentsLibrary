@@ -17,7 +17,6 @@ open class CBHeader: UIView {
     var leftBarBNuttonItemAction: String?
     var leftBarButtonItemActionParameter: String?
     let className: String!
-    
     var subTitle: String?
     required public init(data: JSON) {
         //        CPExpandingMenuList

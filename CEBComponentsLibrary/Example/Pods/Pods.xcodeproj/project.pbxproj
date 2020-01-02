@@ -16,6 +16,7 @@
 		E5934BF923B5AD7E00EE43F2 /* CBHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5934BF823B5AD7E00EE43F2 /* CBHeader.swift */; };
 		E5A42CD723B5E4D3005F4C1A /* ViewSizeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A42CD623B5E4D3005F4C1A /* ViewSizeUtil.swift */; };
 		E5A42CD923B5E523005F4C1A /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A42CD823B5E523005F4C1A /* ViewHelper.swift */; };
+		E5A42CDB23BD7A40005F4C1A /* CPMichael.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A42CDA23BD7A40005F4C1A /* CPMichael.swift */; };
 		F5F608EDDD537964A817CCC451852FD2 /* Pods-CEBComponentsLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A86B53A4F4A2915857A55A5E35E6404 /* Pods-CEBComponentsLibrary_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		E5934BF823B5AD7E00EE43F2 /* CBHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBHeader.swift; sourceTree = "<group>"; };
 		E5A42CD623B5E4D3005F4C1A /* ViewSizeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSizeUtil.swift; sourceTree = "<group>"; };
 		E5A42CD823B5E523005F4C1A /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		E5A42CDA23BD7A40005F4C1A /* CPMichael.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPMichael.swift; sourceTree = "<group>"; };
 		F2DAD46F67395F3A62192570D1A22268 /* Pods-CEBComponentsLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CEBComponentsLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 				E5934BF823B5AD7E00EE43F2 /* CBHeader.swift */,
 				E5A42CD623B5E4D3005F4C1A /* ViewSizeUtil.swift */,
 				E5A42CD823B5E523005F4C1A /* ViewHelper.swift */,
+				E5A42CDA23BD7A40005F4C1A /* CPMichael.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				E5934BF923B5AD7E00EE43F2 /* CBHeader.swift in Sources */,
 				E5A42CD723B5E4D3005F4C1A /* ViewSizeUtil.swift in Sources */,
 				8F57BC5D23AC6DD200DD3AB3 /* CPExpandingMenuList.swift in Sources */,
+				E5A42CDB23BD7A40005F4C1A /* CPMichael.swift in Sources */,
 				AA50158FCB91A7A9D5EF3787A0F81FE5 /* CEBComponentsLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
