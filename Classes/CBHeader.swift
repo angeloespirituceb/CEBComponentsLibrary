@@ -29,7 +29,7 @@ open class CBHeader: UIView {
           let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: ViewSizeUtil.getHeaderHeight())
           super.init(frame: frame)
           
-          makeRoundedBottomEdge(ofHeight: 24)
+//          makeRoundedBottomEdge(ofHeight: 24)
           initComponent()
     }
  
