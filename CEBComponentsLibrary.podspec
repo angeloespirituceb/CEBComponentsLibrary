@@ -27,14 +27,11 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '10.0'
-    s.swift_version = '5.0'
+    s.swift_version = '4.0'
     
-#    s.source_files = 'Classes/**/*'
-#    s.source_files = 'Classes/*.swift'
-#Sources/**/*.swift
-  s.source_files = 'Classes/**/*.swift'
-
-
+#    s.source_files = 'CEBComponentsLibrary/Classes/**/*'
+    s.source_files = 'Classes/*.swift'
+       
     # s.resource_bundles = {
     #   'CEBComponentsLibrary' => ['CEBComponentsLibrary/Assets/*.png']
     # }
