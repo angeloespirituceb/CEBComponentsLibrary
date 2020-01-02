@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CEBComponentsLibrary'
-    s.version          = '3231321'
+    s.version          = '3.0.0'
     s.summary          = 'A Library for reusable UI components for iOS Ceb Pac Platforms.'
     
     # This description is used to generate tags and improve search results.
